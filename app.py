@@ -13,13 +13,13 @@ Jalankan dengan:
     streamlit run app.py
 """
 
+import streamlit as st
 import os
 import numpy as np
 import pandas as pd
 import joblib
 import plotly.express as px
 import plotly.graph_objects as go
-import streamlit as st
 
 # Wajib di-import agar joblib.load() bisa unpickle PlayerSegmentationModel
 from segmentation_model import PlayerSegmentationModel  # noqa: F401
